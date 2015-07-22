@@ -1,0 +1,383 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+permission#您自己的包名.permission.JPUSH_MESSAGE
+ADDED from AndroidManifest.xml:11:5
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:13:9
+	android:name
+		ADDED from AndroidManifest.xml:12:9
+uses-permission#您自己的包名.permission.JPUSH_MESSAGE
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from AndroidManifest.xml:24:5
+	android:name
+		ADDED from AndroidManifest.xml:24:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:22
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:27:5
+	android:name
+		ADDED from AndroidManifest.xml:27:22
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:30:5
+	android:name
+		ADDED from AndroidManifest.xml:30:22
+application
+ADDED from AndroidManifest.xml:32:5
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:37:9
+	android:label
+		ADDED from AndroidManifest.xml:36:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:34:9
+	android:icon
+		ADDED from AndroidManifest.xml:35:9
+	android:name
+		ADDED from AndroidManifest.xml:33:9
+service#cn.jpush.android.service.PushService
+ADDED from AndroidManifest.xml:40:9
+	android:enabled
+		ADDED from AndroidManifest.xml:42:13
+	android:process
+		ADDED from AndroidManifest.xml:44:13
+	android:exported
+		ADDED from AndroidManifest.xml:43:13
+	android:name
+		ADDED from AndroidManifest.xml:41:13
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from AndroidManifest.xml:45:13
+action#cn.jpush.android.intent.REGISTER
+ADDED from AndroidManifest.xml:46:17
+	android:name
+		ADDED from AndroidManifest.xml:46:25
+action#cn.jpush.android.intent.REPORT
+ADDED from AndroidManifest.xml:47:17
+	android:name
+		ADDED from AndroidManifest.xml:47:25
+action#cn.jpush.android.intent.PushService
+ADDED from AndroidManifest.xml:48:17
+	android:name
+		ADDED from AndroidManifest.xml:48:25
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from AndroidManifest.xml:49:17
+	android:name
+		ADDED from AndroidManifest.xml:49:25
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from AndroidManifest.xml:54:9
+	android:enabled
+		ADDED from AndroidManifest.xml:56:13
+	android:name
+		ADDED from AndroidManifest.xml:55:13
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+您自己的包名
+ADDED from AndroidManifest.xml:57:13
+	android:priority
+		ADDED from AndroidManifest.xml:57:28
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from AndroidManifest.xml:58:17
+	android:name
+		ADDED from AndroidManifest.xml:58:25
+category#您自己的包名
+ADDED from AndroidManifest.xml:59:17
+	android:name
+		ADDED from AndroidManifest.xml:59:27
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:61:13
+action#android.intent.action.USER_PRESENT
+ADDED from AndroidManifest.xml:62:17
+	android:name
+		ADDED from AndroidManifest.xml:62:25
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:63:17
+	android:name
+		ADDED from AndroidManifest.xml:63:25
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from AndroidManifest.xml:66:13
+action#android.intent.action.PACKAGE_ADDED
+ADDED from AndroidManifest.xml:67:17
+	android:name
+		ADDED from AndroidManifest.xml:67:25
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from AndroidManifest.xml:68:17
+	android:name
+		ADDED from AndroidManifest.xml:68:25
+data
+ADDED from AndroidManifest.xml:70:17
+	android:scheme
+		ADDED from AndroidManifest.xml:70:23
+activity#cn.jpush.android.ui.PushActivity
+ADDED from AndroidManifest.xml:75:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:77:13
+	android:theme
+		ADDED from AndroidManifest.xml:78:13
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+您自己的包名
+ADDED from AndroidManifest.xml:79:13
+action#cn.jpush.android.ui.PushActivity
+ADDED from AndroidManifest.xml:80:17
+	android:name
+		ADDED from AndroidManifest.xml:80:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:82:17
+	android:name
+		ADDED from AndroidManifest.xml:82:27
+service#cn.jpush.android.service.DownloadService
+ADDED from AndroidManifest.xml:87:9
+	android:enabled
+		ADDED from AndroidManifest.xml:89:13
+	android:exported
+		ADDED from AndroidManifest.xml:90:13
+	android:name
+		ADDED from AndroidManifest.xml:88:13
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from AndroidManifest.xml:92:9
+	android:name
+		ADDED from AndroidManifest.xml:92:19
+receiver#cn.jpush.im.android.helpers.IMReceiver
+ADDED from AndroidManifest.xml:95:9
+	android:enabled
+		ADDED from AndroidManifest.xml:97:13
+	android:exported
+		ADDED from AndroidManifest.xml:98:13
+	android:name
+		ADDED from AndroidManifest.xml:96:13
+intent-filter#cn.jpush.im.android.action.IM_RESPONSE+cn.jpush.im.android.action.NOTIFICATION_CLICK_PROXY+您自己的包名
+ADDED from AndroidManifest.xml:99:13
+	android:priority
+		ADDED from AndroidManifest.xml:99:28
+action#cn.jpush.im.android.action.IM_RESPONSE
+ADDED from AndroidManifest.xml:100:17
+	android:name
+		ADDED from AndroidManifest.xml:100:25
+action#cn.jpush.im.android.action.NOTIFICATION_CLICK_PROXY
+ADDED from AndroidManifest.xml:101:17
+	android:name
+		ADDED from AndroidManifest.xml:101:25
+meta-data#JPUSH_CHANNEL
+ADDED from AndroidManifest.xml:108:9
+	android:value
+		ADDED from AndroidManifest.xml:110:13
+	android:name
+		ADDED from AndroidManifest.xml:109:13
+meta-data#JPUSH_APPKEY
+ADDED from AndroidManifest.xml:112:9
+	android:value
+		ADDED from AndroidManifest.xml:114:13
+	android:name
+		ADDED from AndroidManifest.xml:113:13
+activity#cn.jpush.im.android.demo.activity.BaseActivity
+ADDED from AndroidManifest.xml:116:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:118:13
+	android:name
+		ADDED from AndroidManifest.xml:117:13
+activity#cn.jpush.im.android.demo.activity.LoginActivity
+ADDED from AndroidManifest.xml:119:9
+	android:launchMode
+		ADDED from AndroidManifest.xml:122:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:123:13
+	android:theme
+		ADDED from AndroidManifest.xml:121:13
+	android:name
+		ADDED from AndroidManifest.xml:120:13
+activity#cn.jpush.im.android.demo.activity.MainActivity
+ADDED from AndroidManifest.xml:124:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:127:13
+	android:label
+		ADDED from AndroidManifest.xml:126:13
+	android:theme
+		ADDED from AndroidManifest.xml:128:13
+	android:name
+		ADDED from AndroidManifest.xml:125:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:129:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:130:17
+	android:name
+		ADDED from AndroidManifest.xml:130:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:132:17
+	android:name
+		ADDED from AndroidManifest.xml:132:27
+activity#cn.jpush.im.android.demo.activity.RegisterActivity
+ADDED from AndroidManifest.xml:135:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:138:13
+	android:theme
+		ADDED from AndroidManifest.xml:137:13
+	android:name
+		ADDED from AndroidManifest.xml:136:13
+activity#cn.jpush.im.android.demo.activity.MeInfoActivity
+ADDED from AndroidManifest.xml:139:9
+	android:theme
+		ADDED from AndroidManifest.xml:141:13
+	android:name
+		ADDED from AndroidManifest.xml:140:13
+activity#cn.jpush.im.android.demo.activity.ChatActivity
+ADDED from AndroidManifest.xml:142:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:145:13
+	android:theme
+		ADDED from AndroidManifest.xml:144:13
+	android:name
+		ADDED from AndroidManifest.xml:143:13
+activity#cn.jpush.im.android.demo.activity.ReloginActivity
+ADDED from AndroidManifest.xml:146:9
+	android:theme
+		ADDED from AndroidManifest.xml:147:13
+	android:name
+		ADDED from AndroidManifest.xml:146:19
+activity#cn.jpush.im.android.demo.activity.ChatDetailActivity
+ADDED from AndroidManifest.xml:148:9
+	android:theme
+		ADDED from AndroidManifest.xml:150:13
+	android:name
+		ADDED from AndroidManifest.xml:149:13
+activity#cn.jpush.im.android.demo.activity.GroupSettingActivity
+ADDED from AndroidManifest.xml:151:9
+	android:theme
+		ADDED from AndroidManifest.xml:153:13
+	android:name
+		ADDED from AndroidManifest.xml:152:13
+activity#cn.jpush.im.android.demo.activity.FriendInfoActivity
+ADDED from AndroidManifest.xml:154:9
+	android:theme
+		ADDED from AndroidManifest.xml:156:13
+	android:name
+		ADDED from AndroidManifest.xml:155:13
+activity#cn.jpush.im.android.demo.activity.CreateGroupActivity
+ADDED from AndroidManifest.xml:157:9
+	android:theme
+		ADDED from AndroidManifest.xml:159:13
+	android:name
+		ADDED from AndroidManifest.xml:158:13
+activity#cn.jpush.im.android.demo.activity.PickPictureTotalActivity
+ADDED from AndroidManifest.xml:160:9
+	android:theme
+		ADDED from AndroidManifest.xml:162:13
+	android:name
+		ADDED from AndroidManifest.xml:161:13
+activity#cn.jpush.im.android.demo.activity.PickPictureActivity
+ADDED from AndroidManifest.xml:163:9
+	android:theme
+		ADDED from AndroidManifest.xml:165:13
+	android:name
+		ADDED from AndroidManifest.xml:164:13
+activity#cn.jpush.im.android.demo.activity.BrowserViewPagerActivity
+ADDED from AndroidManifest.xml:166:9
+	android:theme
+		ADDED from AndroidManifest.xml:168:13
+	android:name
+		ADDED from AndroidManifest.xml:167:13
+activity#cn.jpush.im.android.demo.activity.SettingActivity
+ADDED from AndroidManifest.xml:169:9
+	android:theme
+		ADDED from AndroidManifest.xml:171:13
+	android:name
+		ADDED from AndroidManifest.xml:170:13
+activity#cn.jpush.im.android.demo.activity.NotificationSettingActivity
+ADDED from AndroidManifest.xml:172:9
+	android:theme
+		ADDED from AndroidManifest.xml:174:13
+	android:name
+		ADDED from AndroidManifest.xml:173:13
+activity#cn.jpush.im.android.demo.activity.DisturbSettingActivity
+ADDED from AndroidManifest.xml:175:9
+	android:theme
+		ADDED from AndroidManifest.xml:177:13
+	android:name
+		ADDED from AndroidManifest.xml:176:13
+activity#cn.jpush.im.android.demo.activity.ResetPasswordActivity
+ADDED from AndroidManifest.xml:178:9
+	android:theme
+		ADDED from AndroidManifest.xml:180:13
+	android:name
+		ADDED from AndroidManifest.xml:179:13
+activity#cn.jpush.im.android.demo.activity.FixProfileActivity
+ADDED from AndroidManifest.xml:181:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:184:13
+	android:theme
+		ADDED from AndroidManifest.xml:183:13
+	android:name
+		ADDED from AndroidManifest.xml:182:13
+activity#cn.jpush.im.android.demo.activity.ResetNickNameActivity
+ADDED from AndroidManifest.xml:185:9
+	android:theme
+		ADDED from AndroidManifest.xml:187:13
+	android:name
+		ADDED from AndroidManifest.xml:186:13
+activity#cn.jpush.im.android.demo.activity.SelectAreaActivity
+ADDED from AndroidManifest.xml:188:9
+	android:theme
+		ADDED from AndroidManifest.xml:190:13
+	android:name
+		ADDED from AndroidManifest.xml:189:13
+activity#cn.jpush.im.android.demo.activity.EditSignatureActivity
+ADDED from AndroidManifest.xml:191:9
+	android:theme
+		ADDED from AndroidManifest.xml:193:13
+	android:name
+		ADDED from AndroidManifest.xml:192:13

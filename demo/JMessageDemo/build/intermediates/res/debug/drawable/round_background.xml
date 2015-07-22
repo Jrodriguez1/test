@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    <corners android:radius="3dp"/>
+<solid android:color="@null"/>
+</shape><!-- From: file:/E:/360data/重要数据/桌面/实训/test/demo/JMessageDemo/res/drawable/round_background.xml -->
